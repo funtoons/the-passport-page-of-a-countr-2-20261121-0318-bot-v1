@@ -454,8 +454,8 @@ def build():
     # MRZ zone
     cv.fill_rect(72, 706, 492, 800, MRZ_BG)
     cv.rect(72, 706, 492, 800, (190, 170, 120), 1)
-    cv.text("P<KAVVOSS<<ELARA<MIREN<<<<<<<<<<<<<<<<<<<<", 84, 718, 1, INK, spacing=3)
-    cv.text("KV4829130KAV9803147F3606015<<<<<<<<<<<<08", 84, 738, 1, INK, spacing=3)
+    cv.text("P<KAVVOSS<<ELARA<MIREN<<<<<<<<<<<<<<<<<<<<<<", 84, 718, 1, INK, spacing=3)
+    cv.text("KV4829130KAV9803147F3606015<<<<<<<<<<<<<<<08", 84, 738, 1, INK, spacing=3)
     cv.text("TYPE P   CODE KAV   No KV482913", 84, 766, 1, INK_SOFT, spacing=1)
     cv.text("10", 466, 806, 2, INK_SOFT, spacing=1)
 
